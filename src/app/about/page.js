@@ -3,7 +3,7 @@ import granddad from "../../../public/images/granddad.jpg";
 
 const About = () => {
   return (
-    <div className="mt-20 container mx-auto flex flex-col md:flex-row items-center">
+    <div className="mt-20 p-6 container mx-auto flex flex-col md:flex-row items-center">
       <h1 className="text-5xl font-semibold">
         Hi! I am Rassul
         <br />

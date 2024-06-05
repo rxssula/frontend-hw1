@@ -1,4 +1,5 @@
 import dataWithSlugs from "@/app/data/data";
+import Image from "next/image";
 
 export async function generateStaticParams() {
   return dataWithSlugs.map((data) => ({
@@ -16,10 +17,10 @@ const BlogPost = ({ params }) => {
   return (
     <div className="container mx-auto p-6">
       <h1 className="text-4xl font-bold mb-4">{blog.title}</h1>
-      <p className="text-gray-700">
+      <p className="text-gray-700 text-xl">
         By {blog.author} on {blog.date}
       </p>
-      <p className="mt-4">{blog.description}</p>
+      <p className="mt-4 text-lg">{blog.content}</p>
     </div>
   );
 };

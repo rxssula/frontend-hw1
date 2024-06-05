@@ -5,7 +5,7 @@ import kid from "../../public/images/kid.jpg";
 
 export default function Home() {
   return (
-    <div className="container mx-auto flex-col items-center mt-20 text-center">
+    <div className="container p-6 mx-auto flex-col items-center mt-20 text-center">
       <div className="flex flex-col items-center">
         <h1 className="text-6xl font-bold">Fill your mind with goofy blogs</h1>
         <p className="text-xl mt-5 font-semibold">
